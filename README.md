@@ -1,5 +1,4 @@
-# rpi_python
-Raspberry Pi 3B+ Big Project (Beginner)
+# RPI Big Project (LEDs, button push, PIR sensor, Flask webserver)
 
 Breadboard setup with LEDs, Button actuator, PIR sensor
 Flask webserver setup for controlling the LEDS
