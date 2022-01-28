@@ -1,6 +1,7 @@
-#github testing
+#github connection
 import RPi.GPIO as GPIO
 import time
+import
 
 LED_PIN_LIST = [17, 27]
 BUTTON_PIN = 26
