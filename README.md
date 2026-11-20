@@ -1,11 +1,15 @@
-# RPI Big Project (LEDs, button push, PIR sensor, Flask webserver)
+# Raspberry Pi GPIO and Flask experiments
 
-Breadboard setup with LEDs, Button actuator, PIR sensor
-Flask webserver setup for controlling the LEDS
-+to be added Camera modul for taking pictures and then sending them via email directly from RPI
+Raspberry Pi breadboard experiments using LEDs, a push button, a PIR motion sensor, and a Flask web server.
 
-![IMG_7463](https://user-images.githubusercontent.com/46415471/151203049-be911e68-957b-4d65-b0ad-ecdb75f4f5c2.jpg)
-![IMG_7475](https://user-images.githubusercontent.com/46415471/151203084-afe151e7-eccf-423e-91a9-74cf888b7bba.jpg)
-![IMG_7741](https://user-images.githubusercontent.com/46415471/151203094-f6a13b83-7285-4c83-9dee-b8f567faf38c.jpg)
-![IMG_7732](https://user-images.githubusercontent.com/46415471/151203137-20468df1-f910-4795-a5c4-5609764d9001.jpg)
-![Webp net-resizeimage](https://user-images.githubusercontent.com/46415471/151203006-dc7bfc4f-e382-4bb4-9cae-b7befae9310b.jpg)
+## Structure
+
+- `gpio-basics/` — push-button and LED control examples.
+- `motion-sensor/` — PIR sensor testing and automatic LED control.
+- `web-control/` — Flask endpoints for reading the button and controlling LEDs.
+
+The original scripts were moved into topic folders without rewriting their behaviour. Hardware pin assignments and wiring should be checked against the actual breadboard before running them.
+
+## Project notes
+
+The original project description also mentions a possible camera/email extension. No camera implementation was present in the reviewed repository files.
